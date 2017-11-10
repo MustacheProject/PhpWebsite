@@ -17,7 +17,7 @@
 	<div class="contentinfo">
 		<table>
 			<tr>
-				<td>TITLE</td>
+				<td class="content">TITLE</td>
 				<td >Content</td>
 			</tr>
 		</table>

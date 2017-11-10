@@ -290,6 +290,7 @@ a.social:hover {
    vertical-align: top;
   }
   .content{
-    width: 75%;
+    width: 10%;
+    border-right: 3px solid #ccc;
   }
 }
