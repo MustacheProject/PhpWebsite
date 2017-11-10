@@ -11,6 +11,10 @@ body {
   background: #f7f5f0;
 }
 
+footer{
+  clear: both;
+}
+
 
 /*** Header ***/
 #navigation_header {
@@ -233,4 +237,59 @@ a.social:hover {
       justify-content: space-around;
       margin: 0 auto;
      }
+
+
+
+     #resume-profile-image{
+       margin-left: 5%;
+       margin-top:40px;
+       max-width: 20% ;
+       height: 180px ;
+       border-radius: 50%;
+       border: 1px solid gray;
+       float: left;
+     }
+     #resume-override{
+
+       text-align: left;
+       padding: 0;
+     }
+     #resume-card{
+     }
+      .personalinfo{
+       margin:80px 30px 30px 30px;
+       padding: 10px 40px 20px;
+       width: 70%;
+       max-height: 300px;
+       float: right;
+       text-align: left;
+       background: #eff0f2;
+       border-top: 4px solid #000000;/*#ccc;*/
+       border-bottom: 4px solid #000000;/*#ccc;*/
+       border-radius: 6px;*/
+       clear: both;
+     }
+
+     .contentinfo{
+      padding: 10px 40px 20px;
+      width: 100%;
+      max-width: 100%;
+      background: #eff0f2;
+      border-radius: 6px;*/
+    }
+     table {
+     width:100%;
+     border-collapse: collapse;
+     border: 1px solid red;
+ }
+ td{
+   border-collapse: collapse;
+   border: 1px solid red;
+   width: 25%;
+   text-align: center;
+   vertical-align: top;
+  }
+  .content{
+    width: 75%;
+  }
 }
