@@ -20,7 +20,11 @@ function menuBuilder(){
 function contentBuilder($page){
   echo '<body>';
   choosePayoff($page);
-  include_once $page.'.php';
+  if(!@include_once $page.'.php'){
+    include_once "errore.php";
+  }
+
+
   echo '</body>';
 }
 
@@ -46,8 +50,6 @@ function closePage(){
 
 function classesInclusion(){
   include_once "GlobalVariables.php";
-  //include_once "Functions/functions.php";
-  //TODO check if this can still be used
 }
 
  ?>

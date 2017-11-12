@@ -1,0 +1,4 @@
+
+RewriteEngine on
+DirectoryIndex index.php?page=content
+RewriteRule ^([A-Za-z0-9-]+)/?$ index.php?page=$1 [NC]

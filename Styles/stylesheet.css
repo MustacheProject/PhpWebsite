@@ -31,6 +31,7 @@ footer{
   padding: 5px;
   position: fixed;
   text-align: center;
+  z-index:99999;
 }
 
 #nav{
@@ -76,7 +77,7 @@ a:hover{
 #main_body_header{
   margin-top: -10px;
   text-align: center;
-  background: url('/PhpWebsite/img/code-bg.jpg') no-repeat top center;
+  background: url('../img/code-bg.jpg') no-repeat top center;
   background-size: cover;
   max-height: 200px;
   overflow: hidden;
@@ -92,7 +93,7 @@ a:hover{
 }
 #main_body_header_second{
     margin-top: -10px;
-    background: url('/PhpWebsite/img/code-bg_second.jpg') no-repeat;
+    background: url('../img/code-bg_second.jpg') no-repeat;
     overflow: hidden;
     line-height: 1.5;
     transition: all .5s;
@@ -159,13 +160,13 @@ a.social {
   transition: all .25s;
 }
 a.mail {
-  background-image: url("/PhpWebsite/img/mail_icon.png");
+  background-image: url("../img/mail_icon.png");
 }
 a.linkedin {
-  background-image: url("/PhpWebsite/img/linkedin_icon.png");
+  background-image: url("../img/linkedin_icon.png");
 }
 a.github {
-  background-image: url("/PhpWebsite/img/github_icon.png");
+  background-image: url("../img/github_icon.png");
 }
 a.social:hover {
   opacity: 1;
@@ -209,7 +210,7 @@ a.social:hover {
         min-height: 100px;
         margin-top: -10px;
         text-align: center;
-        background: url('/PhpWebsite/img/code-bg_second.jpg') no-repeat;
+        background: url('../img/code-bg_second.jpg') no-repeat;
         background-size: 100%;
         overflow: hidden;
         line-height: 1.5;
@@ -238,36 +239,25 @@ a.social:hover {
       margin: 0 auto;
      }
 
-
-
      #resume-profile-image{
-       margin-left: 5%;
-       margin-top:40px;
-       max-width: 20% ;
-       height: 180px ;
+       height: 80% ;
+       width: 80%;
        border-radius: 50%;
        border: 1px solid gray;
-       float: left;
+       margin: 0 auto;
      }
      #resume-override{
 
        text-align: left;
        padding: 0;
      }
-     #resume-card{
-     }
       .personalinfo{
-       margin:80px 30px 30px 30px;
-       padding: 10px 40px 20px;
-       width: 70%;
-       max-height: 300px;
-       float: right;
+       margin-top: 25px;
+       max-height: 350px;
        text-align: left;
        background: #eff0f2;
-       border-top: 4px solid #000000;/*#ccc;*/
-       border-bottom: 4px solid #000000;/*#ccc;*/
-       border-radius: 6px;*/
-       clear: both;
+       border-bottom: 4px solid #ccc;
+       border-radius: 6px;
      }
 
      .contentinfo{
@@ -277,20 +267,84 @@ a.social:hover {
       background: #eff0f2;
       border-radius: 6px;*/
     }
-     table {
-     width:100%;
-     border-collapse: collapse;
-     border: 1px solid red;
- }
- td{
-   border-collapse: collapse;
-   border: 1px solid red;
-   width: 25%;
-   text-align: center;
-   vertical-align: top;
+  .header{
+     text-align: center;
   }
-  .content{
-    width: 10%;
-    border-right: 3px solid #ccc;
+  .i-container{
+     margin: 0 5%;
+     position: relative;
   }
+  .i-row{
+     margin: 30px 0 30px;
+     overflow:auto;
+  }
+
+  .i-row.header{
+    margin-bottom: 40px;
+  }
+  .i-row.header.title{
+    margin-top:40px;
+    margin-bottom:5px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .clear{
+    clear: both;
+  }
+
+  .i-column-25
+  {
+    width: 25%;
+    margin-bottom: 3px;
+  }
+
+  .i-column-75
+  {
+    width: 75%;
+    background: #e6e6e6;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;*/
+  }
+  .left
+  {
+    float: left;
+    text-align: left;
+    vertical-align: top;
+  }
+  .left.center{
+    text-align: center;
+  }
+  .right
+  {
+    float: right;
+    text-align: justify;
+    margin-top: 20px;
+  }
+  .right.notopmargin{
+    margin-top: 0;
+  }
+  .skills-list{
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+.italic{
+  font-style: italic;
+}
+.bold{
+  font-weight: bold;
+  overflow: auto;
+}
+p.job-qualify{
+  margin: 0;
+  padding: 0;
+}
+p.workplace-list{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+
 }
