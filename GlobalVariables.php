@@ -10,4 +10,5 @@
   $GLOBALS["CONTENT"] = 'content';
   $GLOBALS["PORTFOLIO"] = 'portfolio';
   $GLOBALS["RESUME"] = 'resume';
+  $GLOBALS["ABOUT"] = 'about';
 ?>

@@ -1,0 +1,252 @@
+@media screen and (min-width:720px){
+  header{
+  min-height: 400px;
+}
+  #nav{
+  max-width: 1200px;
+  float: right;
+}
+#nav li{
+  background-color: black;
+}
+  .name{
+        display: block;
+        margin-right: auto;
+        font-weight: 700;
+        list-style-type: none;
+        margin: 0;
+        padding: 5px;
+      }
+
+      #main_body_header .profile-image{
+        margin-top:5%;
+        width: 17%;
+        height: 17%;
+        border-radius: 50%;
+        border: 3px solid white;
+        transition: all .5s;
+        background-color:#331a00;
+      }
+      .profile-image:hover{
+        transform: scale(1.2) rotate(30deg);
+      }
+
+      #main_body_header_second{
+        min-height: 50px;
+        margin-top: -10px;
+        text-align: center;
+        background: url('../img/code-bg_second.jpg') no-repeat;
+        background-size: 150%;
+        overflow: hidden;
+        line-height: 1.5;
+        transition: all .5s;
+
+      }
+
+      .tag_name{
+       background-color:#efefef;
+       color: black;
+       padding:10px;
+       border-radius: 5px;
+       display: table;
+       margin: 10px auto;
+       font-size: 150%;
+     }
+
+     a{
+       font-size: 100%;
+     }
+
+     .flex{
+      display: flex;
+      max-width: 1200px;
+      justify-content: space-around;
+      margin: 0 auto;
+     }
+
+     #resume-profile-image{
+       height: 80% ;
+       width: 80%;
+       border-radius: 50%;
+       border: 1px solid gray;
+       margin: 25px 0;
+     }
+      .personalinfo{
+       margin-top: 25px;
+       max-height: 350px;
+       text-align: left;
+       background: #eff0f2;
+       border-bottom: 4px solid #ccc;
+       border-radius: 6px;
+     }
+
+     .contentinfo{
+      padding: 10px 40px 20px;
+      width: 100%;
+      max-width: 100%;
+      background: #eff0f2;
+      border-radius: 6px;
+    }
+  .header{
+     text-align: center;
+  }
+  .i-container{
+     margin: 0 5%;
+     position: relative;
+  }
+  .i-row{
+     margin: 30px 0 30px;
+     overflow:auto;
+  }
+
+  .i-row.header{
+    margin-bottom: 40px;
+  }
+  .i-row.header.title{
+    margin-top:40px;
+    margin-bottom:5px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .clear{
+    clear: both;
+  }
+
+  .i-column-25
+  {
+    width: 25%;
+    margin-bottom: 3px;
+  }
+
+  .i-column-75
+  {
+    width: 75%;
+    background: #e6e6e6;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+  }
+  .left
+  {
+    float: left;
+    text-align: left;
+    vertical-align: top;
+  }
+  .left.center{
+    text-align: center;
+  }
+  .right
+  {
+    float: right;
+    text-align: justify;
+    margin-top: 20px;
+  }
+  .right.notopmargin{
+    margin-top: 0;
+  }
+  .skills-list{
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+.italic{
+  font-style: italic;
+}
+.bold{
+  font-weight: bold;
+  overflow: auto;
+}
+p.job-qualify{
+  margin: 0;
+  padding: 0;
+}
+p.workplace-list{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+.about-style {
+  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+  background: #0399ff;
+  color: #fff;
+  overflow-x: hidden;
+  padding-bottom: 50px;
+}
+
+.intro {
+  background: #ff9904;
+  padding: 50px 0;
+}
+
+.timeline-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1.timeline-title{
+  font-size: 2.5rem;
+}
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #fff;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #ff9904;
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #ff9904 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #ff9904;
+}
+
+}

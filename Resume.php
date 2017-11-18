@@ -27,11 +27,11 @@
 		</div>
 
 	</div>
-
 	<div class="i-row">
 
 		<div class="i-column-25 left">
 			<h2>Career Objective</h2>
+
 		</div>
 		<div class="i-column-75 right">
 			After completing my studies in IT and Software Development, my objective
@@ -87,7 +87,7 @@
 	</div>
 	<div class="i-column-75 right">
 			<div class="bold">
-				<p class="job-qualify left">Freelance</p><div class="right notopmargin">Casual since Apr.2016</div>
+				<p class="job-qualify left">Videomaker Freelance</p><div class="right notopmargin">Casual since Apr.2016</div>
 			</div>
 				<p class="workplace-list italic">Several Clients</p>
 				<ul class="skills-list">
@@ -125,38 +125,48 @@
 								</ul>
 										Over the year, these improvements reduced the use of paper
 										and office stationery by around 20/25% and boost the office
-									 	productivity by 30/35%.</li>
+									 	productivity by 30/35%.
 								<li>Managed a massive shipment (around 3000 recipients) of
 									 	books that occurred biyearly. Thanks to my activity the
 										failure rate decreased by 30/35%. This brought to a decrease
 										of the budget needed by 30/35%</li>
 					</ul>
 					</div>
-
-
+					<div class="i-column-75 right">
+							<div class="bold">
+								<p class="job-qualify left">Data Entry Operator</p><div class="right notopmargin">Jun 2008 - Sep 2008</div>
+							</div>
+								<p class="workplace-list italic">IDM - Integra Document Management Srl</p>
+								<ul class="skills-list">
+									<li>Data Entry</li>
+									<li>Checked insurance policies details</li>
+							</ul>
+							</div>
+</div>
 		<div class="i-row">
 			<div class="i-column-25 left">
 				<h2>Education</h2>
 			</div>
-			<div class="i-column-75 right">
-				<b>Advance Diploma of IT - Academies Australasia</b>
-				<br>
-				April 2017 – November 2017
-
-				<br>
-				CRICOS Code 089277B
-				<br>
-			</div>
 
 			<div class="i-column-75 right">
-				<b>Diploma of Software Development - SCBIT Sydney</b>
-				<br>
-				January 2016 – March 2017
+					<div class="bold">
+						<p class="job-qualify left">Advance Diploma of IT</p><div class="right notopmargin">Apr. 2017 - Nov. 2017</div>
+					</div>
+						<p class="workplace-list italic">Academies Australasia</p>
+						<ul class="skills-list">
+							<li>CRICOS Code 089277B</li>
+						</ul>
+					</div>
 
-				<br>
-				CRICOS Code 086698E
-				<br>
-			</div>
+					<div class="i-column-75 right">
+							<div class="bold">
+								<p class="job-qualify left">Diploma of Software Development</p><div class="right notopmargin">Jan. 2016 – Mar. 2017</div>
+							</div>
+								<p class="workplace-list italic">AIPE - SCBIT Sydney</p>
+								<ul class="skills-list">
+									<li>CRICOS Code 086698E</li>
+								</ul>
+							</div>
 	</div>
 
 
