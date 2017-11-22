@@ -1,0 +1,49 @@
+:root {
+  /*Absolute colors*/
+    --white-abs:#ffffff;
+
+  /*Custom colors*/
+    --black-85:#222;
+    --black-95:#0f0f0a;
+    --light-gray: #f7f5f0;
+    --nav-li:#0f0f0a;
+    --cyan-blue:#0499ff;
+    --violet-blue:#6633ff;
+    --gray-6p5black:#efefef;
+    --gray-9p8black:#e6e6e6;
+    --dark-brown:#80470D;/*#331a00;*/
+    --pink-60pred: #ff99ff;
+    --yellow-60pred:#ff9904;
+    --blue-60green:#0399ff;
+    --blue-tr:#5E6BFF;
+    --blue-bg:#908CFF;
+    --yellow-tr:#EACB57;
+    --yellow-bg:#EAD880;
+    --blue-dark:#00205C;
+    --dark-gray:#A9A9A9;
+    --light-gray:#D3D3D3;
+
+    /*Pages sections*/
+    --gray-1:var(--light-gray);
+    --gray-2:var(--dark-gray);
+    --body-text: var(--black-85);
+    --body-color: var(--black-85);
+    --nav-li:var(--black-85);
+    --nav-li-name: var(--white-abs);
+    --a: var(--cyan-blue);
+    --a-hover: var(--violet-blue);
+    --tag-name-bg: var(--gray-6p5black);
+    --profile-img-bg: var(--dark-brown);
+    --card-bg:var(--gray-9p8black);
+    --card-border-hover:var(--pink-60pred);
+    --skill-li-even:var(--yellow-60pred);
+    --skill-li-odd:var(--blue-tr);
+    --pers-info-bg : var(--gray-6p5black);
+    --cont-info-bg: var(--gray-6p5black);
+    --col-75-bg: var(--gray-6p5black);
+    --about-bg:var(--white-abs); /*var(--blue-tr);*/
+    --intro-bg:var(--yellow-tr);
+    --about-color:var(--blue-tr);/*var(--dark-brown);*/
+    --timeline-bg:var(--blue-tr);
+    --timeline-div:var(--yellow-tr);/*var(--yellow-tr);*/
+}

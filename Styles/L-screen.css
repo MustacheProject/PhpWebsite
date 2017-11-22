@@ -7,7 +7,7 @@
   float: right;
 }
 #nav li{
-  background-color: black;
+  background-color: var(--nav-li);
 }
   .name{
         display: block;
@@ -22,10 +22,8 @@
         margin-top:5%;
         width: 17%;
         height: 17%;
-        border-radius: 50%;
-        border: 3px solid white;
         transition: all .5s;
-        background-color:#331a00;
+
       }
       .profile-image:hover{
         transform: scale(1.2) rotate(30deg);
@@ -44,7 +42,7 @@
       }
 
       .tag_name{
-       background-color:#efefef;
+       background-color:var(--tag-name-bg);
        color: black;
        padding:10px;
        border-radius: 5px;
@@ -75,7 +73,7 @@
        margin-top: 25px;
        max-height: 350px;
        text-align: left;
-       background: #eff0f2;
+       background: var(--pers-info-bg);
        border-bottom: 4px solid #ccc;
        border-radius: 6px;
      }
@@ -84,7 +82,7 @@
       padding: 10px 40px 20px;
       width: 100%;
       max-width: 100%;
-      background: #eff0f2;
+      background: var(--cont-info-bg);
       border-radius: 6px;
     }
   .header{
@@ -97,7 +95,7 @@
   .i-row{
      margin: 30px 0 30px;
      overflow:auto;
-  }
+     }
 
   .i-row.header{
     margin-bottom: 40px;
@@ -122,7 +120,7 @@
   .i-column-75
   {
     width: 75%;
-    background: #e6e6e6;
+    background: var(--col-75-bg);
     border-bottom: 4px solid #ccc;
     border-radius: 6px;
   }
@@ -140,6 +138,8 @@
     float: right;
     text-align: justify;
     margin-top: 20px;
+
+    padding: 10px 15px;
   }
   .right.notopmargin{
     margin-top: 0;
@@ -168,15 +168,15 @@ p.workplace-list{
 
 .about-style {
   font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  background: #0399ff;
-  color: #fff;
+  color: var(--about-color);
   overflow-x: hidden;
   padding-bottom: 50px;
 }
 
 .intro {
-  background: #ff9904;
+  /*background: var(--intro-bg);*/
   padding: 50px 0;
+  margin: 0 0 -66px 0;
 }
 
 .timeline-container {
@@ -197,7 +197,7 @@ h1.timeline-title{
   width: 6px;
   margin: 0 auto;
   padding-top: 50px;
-  background: #fff;
+  background: var(--timeline-bg);
 }
 
 .timeline ul li::after {
@@ -217,7 +217,7 @@ h1.timeline-title{
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #ff9904;
+  background: var(--timeline-div);
 }
 
 .timeline ul li div::before {
@@ -236,7 +236,7 @@ h1.timeline-title{
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #ff9904 transparent transparent;
+  border-color: transparent var(--timeline-div) transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -246,7 +246,7 @@ h1.timeline-title{
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #ff9904;
+  border-color: transparent transparent transparent var(--timeline-div);
 }
 
 }
